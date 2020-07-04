@@ -16,12 +16,7 @@ pipeline {
                 
             }
         }
-        stage ('Install Stage') {
-            steps {
-            
-                    sh 'mvn install'
-                
-            }
+       
         }
     }
 }
